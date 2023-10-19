@@ -1,7 +1,7 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
 import Cabecalho from './componentes/cabecalho/Cabecalho'
-import rodape from './componentes/rodape/rodape'
+import Rodape from './componentes/rodape/Rodape'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -17,6 +17,7 @@ export default function RootLayout({ children }) {
         <Cabecalho/>
         {children}
         <Rodape/>
+
          
         </body>
     </html>
